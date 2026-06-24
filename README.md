@@ -1,11 +1,11 @@
 # 👋 Hi there, I'm Emmanuel Ajala
 
-I'm a Machine Learning Engineer with a passion for building intelligent systems that solve real-world problems. I specialize in designing, training, and deploying ML models that are not just accurate—but scalable, adaptable, efficient, and production-ready. I’m looking to collaborate on open-source ML projects, AI for social good, and anything that blends data with impact.
+I'm a ML System Engineer with a passion for building intelligent systems that solve real-world problems. I specialize in designing, training, and deploying ML models that are not just accurate—but scalable, adaptable, efficient, and production-ready. I’m looking to collaborate on open-source ML projects, AI for social good, and anything that blends data with impact.
 
 
 ## 🚀 What I Do
 - 🧠 **Machine Learning & Deep Learning**: From classical models to neural networks, I build solutions using Scikit-Learn, TensorFlow, PyTorch, and more.
-- 🛠 **MLOps & Deployment**: I love turning prototypes into production—using FastAPI, Docker, MLflow, and CI/CD pipelines (Github Actions and Jenkins).
+- 🛠 **MLOps & Deployment**: I love turning prototypes into production—using FastAPI, Docker, MLflow, WandB, and CI/CD pipelines (Github Actions and Jenkins).
 - 📊 **Data Engineering**: Skilled in SQL, data wrangling, and feature engineering to make raw data usable and powerful.
 - 🔍 **Experimentation & Optimization**: I iterate fast, tune hard, and always keep performance metrics in sight.
 
@@ -17,7 +17,7 @@ I'm a Machine Learning Engineer with a passion for building intelligent systems 
 
 
 ## 📂 Featured Projects
-- **HotelReservationCancellation** – ML-powered prediction tool for Hotels
+- **Ask Your Doc** – An Agentic RAG system that let you retrieve information from your Document
 - **PhishingData** – Prediction tool for companies to detect Phishing websites in real time
 - **TextSummarizer** – Finetuned a pretrained model for summarization task
 

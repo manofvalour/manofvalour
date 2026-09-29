@@ -1,35 +1,117 @@
-# 👋 Hi there, I'm Emmanuel Ajala
+# 👋 Hi, I'm Emmanuel Ajala
 
-I'm a ML System Engineer with a passion for building intelligent systems that solve real-world problems. I specialize in designing, training, and deploying ML models that are not just accurate—but scalable, adaptable, efficient, and production-ready. I’m looking for career defining roles where I can take ownership of projects, be part of the decision making, and make impactful contribution to the world.
+### ML Systems Engineer | Distributed Training | LLM Inference | ML Research
 
+I build and investigate machine learning systems with a focus on **performance, efficiency, and reproducibility**.
 
-## 🚀 What I Do
-- 🧠 **Machine Learning & Deep Learning**: From classical models to neural networks, I build solutions using Scikit-Learn, TensorFlow, PyTorch, and more.
-- 🛠 **Applied ML**: I love turning prototypes into production—using FastAPI, Docker, MLflow, WandB, and CI/CD pipelines (Github Actions and Jenkins).
-- 📊 **Data Engineering**: Skilled in SQL, data wrangling, and feature engineering to make raw data usable and powerful.
-- 🔍 **Experimentation & Optimization**: I iterate fast, tune hard, and always keep performance metrics in sight. Focus on scaling models, increasing throughput, and implementing researchs.
+My work starts with a technical question, not a technology:
 
+> **What is the bottleneck, what changes when I alter it, and what does the evidence show?**
 
-## 🌱 Currently Exploring
-- 🧬 Generative AI & LLMs
-- ⚙️ Applied ML and Advanced MLoPs workflows
-- 🧩 Multi-modal learning and model interpretability
-
-
-## 📂 Featured Projects
-- **Ask Your Doc** – An Agentic RAG system that let you retrieve information from your Document
-- **NYCTaxiDemandPrediction** – Tools to help NYC taxi drivers maximize income by seeing where the real demand is
-- **LLM Research Paper Reimplementation** – Project that focus on from-scratch reimplementation of over 100 research papers (in progress)
-
-
-## 📫 Let's Connect
-- 💼 [LinkedIn](https://www.linkedin.com/in/emmanuelajala)
-- 📧 [Email](ajalae2@gmail.com)
+I use controlled experiments to study trade-offs across **compute, memory, communication, latency, throughput, and model quality**.
 
 ---
 
+## 🔬 What I Work On
 
-> “The best way to predict the future is to invent it.” – Alan Kay
+* **ML Systems** — distributed training, multi-GPU workloads, communication/computation trade-offs, and performance bottlenecks
+* **LLM Systems** — inference, KV caching, retrieval-augmented generation, and serving
+* **Efficient ML** — PEFT, quantization, memory efficiency, and model optimization
+* **Deep Learning** — PyTorch implementations and reproductions of research papers from first principles
+* **Experimentation** — controlled benchmarks, profiling, reproducibility, and failure analysis
 
+---
 
-Thanks for stopping by! Feel free to explore my repos or reach out for collaboration.
+## 🧪 How I Approach Engineering
+
+I try to make every investigation answer five questions:
+
+1. **What is the hypothesis?**
+2. **What variables need to be controlled?**
+3. **What should be measured?**
+4. **What actually happened?**
+5. **What engineering conclusion follows from the evidence?**
+
+I'm particularly interested in situations where improving one dimension makes another worse:
+
+**latency ↔ throughput**
+**memory ↔ compute**
+**communication ↔ scaling**
+**model quality ↔ efficiency**
+
+---
+
+## 🚀 Selected Work
+
+### [PEFT Benchmark](https://github.com/manofvalour/PEFT_benchmark)
+
+Controlled experiments comparing **LoRA, AdaLoRA, IA³, DoRA, and Prefix Tuning**.
+
+I measure the trade-offs between:
+
+* Model quality
+* Trainable parameters
+* GPU memory
+* Training performance
+
+The goal is to understand the **Pareto frontier of parameter-efficient adaptation**, rather than simply identify a single "best" method.
+
+### Model Replication
+
+From-scratch implementations of architectures and techniques from research papers, including:
+
+* Transformer
+* GPT-2
+* Mixture-of-Experts
+* KV caching
+
+The focus is on understanding the implementation details behind the papers, validating assumptions, and investigating discrepancies between expected and observed behavior.
+
+### Multi-Agent RAG System
+
+A production-oriented RAG system built with **FastAPI, Qdrant, Redis, and multiple LLM providers**.
+
+The system includes retrieval, reranking, query expansion, claim verification, confidence scoring, semantic caching, evaluation, and observability.
+
+---
+
+## 📚 Current Research Direction
+
+I'm currently focused on **ML systems research**, particularly:
+
+* Distributed training under constrained network conditions
+* Communication-efficient training
+* LLM inference efficiency
+* Quantization and memory trade-offs
+* GPU performance analysis
+* Reproducible ML systems benchmarks
+
+---
+
+## 🛠️ Technologies
+
+**Languages:** Python, SQL
+
+**ML:** PyTorch, Scikit-learn
+
+**LLM / Retrieval:** Qdrant, FAISS, RAG
+
+**Systems:** FastAPI, Docker, Redis
+
+**Observability:** OpenTelemetry, Prometheus, Grafana
+
+**Experimentation:** Benchmarking, profiling, controlled experiments
+
+---
+
+## 📫 Connect
+
+* [LinkedIn](https://www.linkedin.com/in/emmanuelajala)
+* [Portfolio](https://emmanuelajala.netlify.app)
+* Email: [ajalae2@gmail.com](mailto:ajalae2@gmail.com)
+
+---
+
+> **Evidence over intuition.**
+>
+> Build the experiment. Measure the system. Understand the trade-off.

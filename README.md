@@ -56,7 +56,7 @@ I measure the trade-offs between:
 
 The goal is to understand the **Pareto frontier of parameter-efficient adaptation**, rather than simply identify a single "best" method.
 
-### Model Replication
+### [Model Replication](https://github.com/manofvalour/Multiagent_RAG_system)
 
 From-scratch implementations of architectures and techniques from research papers, including:
 
@@ -67,7 +67,7 @@ From-scratch implementations of architectures and techniques from research paper
 
 The focus is on understanding the implementation details behind the papers, validating assumptions, and investigating discrepancies between expected and observed behavior.
 
-### Multi-Agent RAG System
+### [Multi-Agent RAG System](https://github.com/manofvalour/Models_Replication)
 
 A production-oriented RAG system built with **FastAPI, Qdrant, Redis, and multiple LLM providers**.
 

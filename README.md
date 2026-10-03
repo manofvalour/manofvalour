@@ -45,7 +45,7 @@ I'm particularly interested in situations where improving one dimension makes an
 
 ### [PEFT Benchmark](https://github.com/manofvalour/PEFT_benchmark)
 
-Controlled experiments comparing **LoRA, AdaLoRA, IA³, DoRA, and Prefix Tuning**.
+Controlled experiments comparing **LoRA, AdaLoRA, IA³, and DoRA**.
 
 I measure the trade-offs between:
 
@@ -55,17 +55,6 @@ I measure the trade-offs between:
 * Training performance
 
 The goal is to understand the **Pareto frontier of parameter-efficient adaptation**, rather than simply identify a single "best" method.
-
-### [Model Replication](https://github.com/manofvalour/Multiagent_RAG_system)
-
-From-scratch implementations of architectures and techniques from research papers, including:
-
-* Transformer
-* GPT-2
-* Mixture-of-Experts
-* KV caching
-
-The focus is on understanding the implementation details behind the papers, validating assumptions, and investigating discrepancies between expected and observed behavior.
 
 ### [Multi-Agent RAG System](https://github.com/manofvalour/Models_Replication)
 
@@ -87,23 +76,6 @@ I'm currently focused on **ML systems research**, particularly:
 * Reproducible ML systems benchmarks
 
 ---
-
-## 🛠️ Technologies
-
-**Languages:** Python, SQL
-
-**ML:** PyTorch, Scikit-learn
-
-**LLM / Retrieval:** Qdrant, FAISS, RAG
-
-**Systems:** FastAPI, Docker, Redis
-
-**Observability:** OpenTelemetry, Prometheus, Grafana
-
-**Experimentation:** Benchmarking, profiling, controlled experiments
-
----
-
 ## 📫 Connect
 
 * [LinkedIn](https://www.linkedin.com/in/emmanuelajala)
